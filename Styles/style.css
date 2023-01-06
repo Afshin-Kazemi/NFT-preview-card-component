@@ -5,7 +5,6 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 section {
@@ -14,15 +13,16 @@ section {
   align-items: center;
   text-align: left;
   flex-direction: column;
+  width: 20vw;
+  padding: 15px;
   background-color: hsl(216, 50%, 16%);
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
 }
 
 .banner {
-  width: 45%;
+  width: 300px;
   border-radius: 10px;
-  margin: 15px;
 }
 
 .header {
