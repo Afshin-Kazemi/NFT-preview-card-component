@@ -31,6 +31,10 @@ section {
   text-align: left;
 }
 
+.header:hover {
+  color: hsl(178, 100%, 50%);
+}
+
 .details {
   display: flex;
   flex-direction: row;
@@ -43,16 +47,36 @@ section {
   align-items: center;
 }
 
+.info {
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .avatarPhoto {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border: 2px solid hsl(0, 0%, 100%);
   border-radius: 50%;
+}
+
+.avatarInfo {
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .leftsvg {
