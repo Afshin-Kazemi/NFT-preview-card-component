@@ -14,7 +14,7 @@ section {
   align-items: center;
   text-align: left;
   flex-direction: column;
-  width: 300px;
+  width: 375px;
   padding: 15px;
   background-color: hsl(216, 50%, 16%);
   border-radius: 15px;
@@ -40,6 +40,7 @@ section {
 .card {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .footer {
@@ -52,4 +53,25 @@ section {
   height: 50px;
   border: 2px solid hsl(0, 0%, 100%);
   border-radius: 50%;
+}
+
+.leftsvg {
+  width: 12px;
+  height: 18px;
+}
+.rightsvg {
+  width: 18px;
+  height: 18px;
+}
+
+.ethereum {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.clock {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  padding-left: 5px;
 }
